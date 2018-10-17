@@ -9,7 +9,6 @@ public class Histogram <T> {
         this.data = data;
     }
 
-
     public T[] getData() {
         return data;
     }
@@ -21,4 +20,5 @@ public class Histogram <T> {
         }
         return histogram;
     }
+    
 }
